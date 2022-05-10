@@ -4,8 +4,8 @@ public class BankAccount {
 
     // Class constructor
     public BankAccount(double balance, String name){
-        accountBalance = balance;
-        accountHolderName = name;
+        this.accountBalance = balance;
+        this.accountHolderName = name;
     }
     public void deposit(double amount){
         accountBalance += amount;

@@ -4,9 +4,9 @@ public class Product {
     String productName;
 
     public Product(double cost, int quantity, String name){
-        productCost = cost;
-        productQuantity = quantity;
-        productName = name;
+        this.productCost = cost;
+        this.productQuantity = quantity;
+        this.productName = name;
 
     }
     public double totalCost(){
