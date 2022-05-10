@@ -10,15 +10,16 @@ public class Product {
 
     }
     public double totalCost(){
-        double total;
+         double total;
          total = productQuantity * productCost;
-        return (total);
+         System.out.println("The total cost is "+ total);
+         return (total);
 
     }
 
     public void printProduct(){
            System.out.println(this.productName + " costs " + this.productCost +" and "
-                   + this.productQuantity + " units were purchased" + "\n" + "The total cost is " + this.totalCost());
+                   + this.productQuantity + " units were purchased");
     }
 
 }
